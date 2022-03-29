@@ -1,0 +1,370 @@
+/* All Common CSS Start  */
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+    ul,ol{
+        list-style: none; 
+    }
+    a,a:hover{
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0;
+        padding: 0;
+        line-height: 0.8;
+    }
+/* All Common CSS End  */
+
+/* Custom Fonts Start */
+@font-face {
+  font-family: 'TT Hoves';
+  src: url(../fonts/TTHoves-Bold.ttf);
+  src: url(../fonts/TTHoves-Regular.ttf);
+  src: url(../fonts/TTHoves-Medium.ttf);
+  src: url(../fonts/TTHoves-Light.ttf);
+}
+/* Custom Fonts End */
+
+/*navbar part css*/
+.navbar{
+    padding-top: 56px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    padding-right: 53px;
+}
+.header-social-icon a{
+    color: #000;
+    margin-right: 24px;
+}
+.header-social-icon a:last-child{
+    margin-right: 0;
+}
+/*banner part css*/
+#banner{
+    padding-top: 105px;
+}
+.banner-text p {
+    padding-bottom: 51px;
+    font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.banner-text h1{
+font-family: 'TT Hoves';
+font-weight: 400;
+font-size: 100px;
+padding-bottom: 20px;
+}
+.banner-text h2{
+font-family: 'TT Hoves';
+font-weight: 400;
+font-size: 100px;
+padding-top: 30px;
+margin-left: 128px;
+}
+
+.banner-image {
+    padding-top: 285px;
+    padding-bottom: 170px;
+    margin-top: 78px;
+}
+
+/*about part css*/
+
+.about-header h3{
+    font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 50px;
+}
+.about-text {
+    padding-top: 20px;
+}
+.about-text p{
+    font-family: 'TT Hoves';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+}
+.inner-about-para {
+    padding-top: 25px;
+}
+/*covid part css*/
+#covid{
+    padding-top: 125px;
+}
+.covid-main-part{
+    padding-bottom: 19px;
+    border-bottom: 1px solid #000;
+}
+.covid-main-part-second{
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #000;
+}
+.main-covid-mixit{
+    padding-top: 44px;
+    border-bottom: 1px solid #000;
+    display: flex;
+}
+.part-1-right h5{
+    line-height: 85px;
+    font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.part-1{
+    display: flex;
+    width: 68%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 44px;
+}
+.part-1-right{
+    width: 32%;
+}
+.part-1 a{
+    font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.205);
+    transition: all linear .3s;
+}
+.part-1 h3{
+    visibility: hidden;
+    font-family: 'TT Hoves';
+    font-weight: 400;
+    font-size: 100px;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.part-1 a:hover {
+    color: #000;
+}
+.part-1 a:hover ~ h3{
+    visibility: visible;
+    opacity: 1;
+}
+.part-image {
+    position: absolute;
+    top: -140px;
+    right: -295px;
+    z-index: -1;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.part-1 a:hover ~ .part-image{
+    opacity: 1;
+}
+
+
+
+/*discover part css*/
+
+#discover{
+    padding-top: 165px;
+}
+.left-discover h3{
+    font-family: 'TT Hoves';
+    font-weight: 300;
+    font-size: 100px;
+    color: #000;
+    line-height: 117px;
+}
+.left-discover p{
+    font-family: 'TT Hoves';
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+    line-height: 45px;
+    margin-top: 31px;
+}
+.discover-button{
+    margin-top: 73px;
+}
+.discover-button a{
+    padding: 20px 40px;
+    border: 1px solid #000;
+     font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 35px;
+    color: #000;
+}
+/*advantage*/
+#advantage{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#advantage .slick-track{
+    padding-bottom: 20px;
+}
+.main-advantage-slider{
+    padding-top: 88px;
+}
+.advantage-header h3{
+     font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 50px;
+    color: #000;
+}
+.advantage-slider{
+    width: 180px;
+    margin: 0 15px;
+}
+.advantage-slider img{
+    width: 100%;
+}
+.advantage-title{
+    margin-top: 22px;
+}
+.advantage-title p {
+    font-family: 'TT Hoves';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000; 
+}
+
+
+/* ++++++++++ feadback section css part+++++++++++ */
+
+#feadback{
+    background: #f2f2f2;
+    padding: 75px 0;
+    position: relative;
+}
+
+.slider-wrapper{
+    
+}
+.left-arrow {
+	position: absolute;
+	top: 239px;
+	left: 113px;
+	font-size: 26px;
+}
+.right-arrow{
+    position: absolute;
+	top: 239px;
+	right: 113px;
+	font-size: 26px;
+}
+.slider-wrapper-content{}
+.slider-wrapper-content h3{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+}
+.slider-wrapper-content p {
+	font-family: 'TT Hoves';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 32px;
+	padding: 0px 70px;
+}
+
+.slider-wrapper-content2{
+    text-align: center;
+}
+.slider-wrapper-content2 p {
+	font-family: 'TT Hoves';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 15px;
+    color: #000;
+}
+.slider-wrapper-content2 span{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+/* +++++++++++++++++++++footer section part ++++++++++++++++++++++ */
+
+#footer-section{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.ft-header{}
+.ft-header h2{
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 97px;
+    line-height: 118px;
+    text-align: center;
+}
+.ft-header p {
+	font-family: 'TT Hoves';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.social-menu{}
+.social-menu ul {
+	text-align: center;
+	padding: 0;
+}
+.social-menu ul li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+.social-menu ul li a {
+	color: #000;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+
+/* ++++++++++++++++copyright section part++++++++++++++++++ */
+
+.copyright-content{
+    position: relative;
+} 
+.copyright-content::after {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: rgb(196, 196, 196);
+}
+
+.copyright-content p {
+	font-family: 'TT Hoves';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	padding-bottom: 20px;
+}

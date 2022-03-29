@@ -1,0 +1,522 @@
+@media (min-width:1400px){
+    .banner-text h2 {
+        margin-left: 82px;
+    }
+    .banner-image {
+        padding-top: 285px;
+        padding-bottom: 127px;
+        margin-top: 78px;
+    }
+
+    #discover {
+        padding-top: 55px;
+    }
+
+    .left-discover h3 {
+        font-size: 86px;
+        line-height: 96px;
+    }
+    .discover-button a {
+        padding: 10px 20px;
+        font-size: 29px;
+    }
+
+    .left-arrow {
+        top: 213px;
+        left: 64px;
+    }
+    .right-arrow {
+        top: 213px;
+        right: 64px;
+    }
+
+    .ft-header h2 {
+        font-size: 84px;
+        line-height: 108px;
+    }
+    .ft-header p {
+        font-size: 33px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .banner-text h2 {
+        margin-left: 82px;
+    }
+    .banner-image {
+        padding-top: 285px;
+        padding-bottom: 127px;
+        margin-top: 78px;
+    }
+
+    #discover {
+        padding-top: 55px;
+    }
+
+    .left-discover h3 {
+        font-size: 86px;
+        line-height: 96px;
+    }
+    .discover-button a {
+        padding: 10px 20px;
+        font-size: 29px;
+    }
+
+    .left-arrow {
+        top: 213px;
+        left: 64px;
+    }
+    .right-arrow {
+        top: 213px;
+        right: 64px;
+    }
+
+    .ft-header h2 {
+        font-size: 84px;
+        line-height: 108px;
+    }
+    .ft-header p {
+        font-size: 33px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+  
+
+    .banner-image {
+        padding-bottom: 55px;
+    }
+    .banner-text h1 {
+        font-size: 78px;
+    }
+    .banner-text h2 {
+        font-size: 74px;
+    }
+    .about-header h3 {
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 20px;
+        line-height: 44px;
+        text-align: justify;
+    }
+
+    /* discover section */
+    #discover {
+        padding-top: 54px;
+    }
+
+    .left-discover h3 {
+	font-size: 68px;
+	line-height: 73px;
+}
+
+.discover-button {
+	margin-top: 46px;
+}
+
+.discover-button a {
+	padding: 5px 21px;
+	font-size: 25px;
+}
+
+.advantage-header h3 {
+	font-size: 45px;
+}
+.left-arrow {
+	top: 256px;
+	left: 48px;
+}
+.right-arrow {
+	top: 256px;
+	right: 48px;
+}
+
+.ft-header h2 {
+	font-size: 70px;
+	line-height: 96px;
+}
+
+.ft-header p {
+	font-size: 32px;
+	margin-top: 26px;
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .logo {
+        display: none;
+    }
+
+    #banner {
+        padding-top: 56px;
+    }
+
+    .banner-text h1 {
+        font-size: 67px;
+        padding-bottom: 20px;
+    }
+    .banner-text h2 {
+        font-size: 67px;
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    .banner-image {
+        padding-bottom: 23px;
+    }
+    .about-header h3 {
+        text-align: center;
+    }
+
+    .part-image {
+        display: none !important;
+    }
+
+    .part-1 {
+        display: none;
+    }
+
+    /* discover section */
+
+    #discover {
+        padding-top: 70px;
+    }
+
+    .left-discover h3 {
+        font-size: 73px;
+        text-align: center;
+    }
+
+    .left-discover p {
+        font-size: 25px;
+        margin-top: 11px;
+        text-align: center;
+    }
+
+    .discover-button {
+        text-align: center;
+        margin: 51px 0px;
+    }
+
+    .discover-button a {
+        padding: 14px 25px;
+        font-size: 24px;
+    }
+
+    .right-discover img {
+        width: 77% !important;
+    }
+
+    .advantage-header h3 {
+        text-align: center;
+    }
+
+    .slider-wrapper-content p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 234px;
+        left: 56px;
+        font-size: 26px;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 234px;
+        right: 56px;
+        font-size: 26px;
+    }
+
+    .ft-header h2 {
+        font-size: 66px;
+        line-height: 83px;
+    }
+    .ft-header p {
+        font-size: 28px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .logo {
+        display: none;
+    }
+
+    .banner-image {
+        padding-bottom: 7px;
+        margin-top: 78px;
+    }
+    .banner-text h1 {
+        font-size: 74px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .banner-text p {
+        padding-bottom: 27px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner-text h2 {
+        font-size: 74px;
+        padding-top: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .about-header {
+        text-align: center;
+    }
+
+    .part-image {
+        display: none;
+    }
+    .part-1 {
+        display: none;
+    }
+    .part-1-right h5 {
+        font-size: 34px;
+    }
+
+    /* discover seciton */
+    #discover {
+        padding-top: 51px;
+    }
+
+    .left-discover h3 {
+        font-size: 68px;
+        text-align: center;
+    }
+    .right-discover img {
+        width: 82% !important;
+    }
+    .discover-button {
+        text-align: center;
+        margin: 58px 0;
+    }
+
+    .discover-button a {
+        padding: 10px 25px;
+        font-size: 29px;
+    }
+
+    .advantage-header h3 {
+        text-align: center;
+    }
+
+    .left-discover p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .left-arrow {
+        position: absolute;
+        top: 230px;
+        left: 32px;
+        font-size: 26px;
+    }
+    .right-arrow {
+        position: absolute;
+        top: 230px;
+        right: 32px;
+        font-size: 26px;
+    }
+    .slider-wrapper-content p {
+        font-size: 16px;
+        line-height: 33px;
+    }
+
+    .ft-header h2 {
+        font-size: 54px;
+        line-height: 77px;
+    }
+    .ft-header p {
+        font-size: 35px;
+}
+
+}
+
+@media (max-width:575.99px){
+    /* nab bar */
+    .navbar {
+        padding-top: 23px;
+    }
+
+    .logo {
+        display: none;
+    }
+    /* banner-section */
+    .banner-text p {
+        padding-bottom: 26px;
+        font-family: 'TT Hoves';
+        font-weight: 500;
+        font-size: 30px;
+        margin-left: 108px;
+    }
+    .banner-text h1 {
+        font-family: 'TT Hoves';
+        font-weight: 400;
+        font-size: 50px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .part-1 a {
+        font-size: 40px;
+    }
+    .banner-text h2 {
+        font-family: 'TT Hoves';
+        font-weight: 400;
+        font-size: 50px;
+        padding-top: 4px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .part-image {
+        display: none;
+    }
+    .part-1 h3 {
+        display: none;
+    }
+    .part-1-right h5 {
+        display: none;
+    }
+
+    /* discover-section */
+    #discover {
+        padding-top: 47px;
+    }
+    .discover-button a {
+        padding: 6px 30px;
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .left-discover p {
+        font-size: 25px;
+        text-align: center;
+    }
+    .discover-button {
+        text-align: center;
+        margin-top: 36px;
+        margin-bottom: 20px;
+    }
+
+    .left-discover h3 {
+        font-family: 'TT Hoves';
+        font-weight: 300;
+        font-size: 40px;
+        color: #000;
+        line-height: 55px;
+        text-align: center;
+        padding: 0px 139px;
+    }
+    .right-discover img {
+        width: 82% !important;
+    }
+
+    .slider-wrapper-content h3 {
+        font-size: 37px;
+        line-height: 37px;
+    }
+
+    .slider-wrapper-content p {
+        font-size: 13px;
+        line-height: 27px;
+        margin-top: 32px;
+    }
+    .left-arrow {
+        top: 170px;
+        left: 56px;
+        font-size: 20px;
+    }
+    .right-arrow {
+        top: 170px;
+        right: 56px;
+        font-size: 20px;
+    }
+    .ft-header h2 {
+        font-size: 69px;
+        line-height: 86px;
+    }
+
+    .ft-header p {
+        font-size: 31px;
+        line-height: 42px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:420px){
+    .navbar-toggler {
+        margin-left: 239px;
+    }
+    .navbar {
+        padding-top: 23px;
+    }
+    .logo {
+        display: none;
+    }
+    #banner {
+        padding-top: 44px;
+    }
+    .banner-text p {
+        padding-bottom: 26px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .banner-image {
+        padding-top: 179px;
+        padding-bottom: 0px;
+        margin-top: 33px;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+        padding-bottom: 17px;
+    }
+    .banner-text h2 {
+        font-size: 40px;
+    }
+    .ft-header h2 {
+        font-size: 31px;
+        line-height: 48px;
+    }
+    .ft-header p {
+        font-size: 19px;
+        line-height: 42px;
+    }
+    .arrows-icon {
+        display: none;
+    }
+    .slider-wrapper-content h3 {
+        font-size: 30px;
+    }
+    .left-discover h3 {
+        padding: 0px 50px;
+    }
+
+    .advantage-header h3 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .slider-wrapper-content p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-top: 19px;
+        text-align: justify;
+    }
+    .slider-wrapper-content2 p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .advantage-title p {
+        font-family: 'TT Hoves';
+        font-weight: 500;
+        font-size: 13px;
+        color: #000;
+    }
+}
